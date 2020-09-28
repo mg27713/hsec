@@ -4,7 +4,7 @@
     <script>
 
 addEventListener("load", function() {
-  document.getElementById("test-box").innerHTML = window.location.href;
+  document.getElementById("test-box").innerHTML = eval("window" + "." + "location" + "." + "href");
 });
 
     </script>
